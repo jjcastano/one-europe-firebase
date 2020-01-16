@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>One Europe</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+</head>
+<body>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+        https://firebase.google.com/docs/web/setup#available-libraries 
+        <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-analytics.js"></script>
+    -->
+    <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-messaging.js"></script>
+
+    <script type="module">
+        import { NotificationService } from './notification-service.js';
+
+        const notificationService = new NotificationService();
+    </script>
+
+    <script>
+        /*
+
+    Notification.requestPermission().then((permission) => {
+    if (permission === 'granted') {
+        console.log('Notification permission granted.');
+        // TODO(developer): Retrieve an Instance ID token for use with FCM.
+        // ...
+    } else {
+        console.log('Unable to get permission to notify.');
+    }
+    });
+
+
+*/
+    </script>
+</body>
+</html>
